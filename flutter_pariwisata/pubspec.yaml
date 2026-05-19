@@ -1,0 +1,34 @@
+name: pariwisata_lombok
+description: Sistem Rekomendasi Destinasi Pariwisata Lombok Timur
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  provider: ^6.1.1
+  geolocator: ^10.1.0
+  camera: ^0.10.5+9
+  cached_network_image: ^3.3.0
+  url_launcher: ^6.2.1
+  google_fonts: ^6.1.0
+  shimmer: ^3.0.0
+  image_picker: ^1.1.2
+  google_generative_ai: ^0.4.3
+  flutter_markdown: ^0.7.3
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  web:
+    generate: true
+    image_path: "../logo balente.png"
+  image_path: "../logo balente.png"

@@ -1,0 +1,19 @@
+name: sistem_rekomendasi_destinasi_lombok_timur
+description: Aplikasi rekomendasi destinasi pariwisata Lombok Timur dengan AI conversational dan scanner kuliner.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  http: ^0.13.6
+  camera: ^0.10.0
+  geolocator: ^14.0.2
+  google_maps_flutter: ^2.4.1
+
+flutter:
+  uses-material-design: true
